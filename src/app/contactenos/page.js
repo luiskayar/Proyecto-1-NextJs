@@ -1,5 +1,5 @@
 function Contactenos() {
-  return <p>Contactenos</p>
+  return <p>Para mas imformacion comuniquese conmigo</p>
 }
 
 export default Contactenos
