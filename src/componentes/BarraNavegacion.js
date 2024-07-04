@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 function BarraNavegacion() {
   return (
     <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/productos">Productos</a></li>
-        <li><a href="/contactenos"></a>Contactenos</li>
+      <ul className="links-list">
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/productos">Productos</Link></li>
+        <li><Link href="/contactenos">Contactenos</Link></li>
       </ul>
     </nav>
   )

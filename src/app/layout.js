@@ -1,4 +1,5 @@
 import BarraNavegacion from "@/componentes/BarraNavegacion";
+import "./global.css"
 
 export const metadata = {
   title: 'Next.js',
@@ -10,7 +11,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
       <BarraNavegacion />
-        {children}
+
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   )
