@@ -1,11 +1,11 @@
-.product-list {
+.productList {
   display: flex;
   flex-direction: column;
   gap: 30px;
   list-style: none;
 }
 
-.product-item {
+.productItem {
   display: flex;
   padding: 10px;
   justify-content: space-between;
@@ -13,12 +13,12 @@
   gap: 10px;
 }
 
-.product-list p {
+.productList p {
   flex: 1;
   text-align: center;
 }
 
-.add-button {
+.addButton {
   cursor: pointer;
   border-radius: 100%;
   padding: 5px 11px;

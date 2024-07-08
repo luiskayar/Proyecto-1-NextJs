@@ -1,6 +1,6 @@
 "use client"
 
-import BarraNavegacion from "@/componentes/BarraNavegacion";
+import Header from "@/componentes/Header/Header";
 import "./global.css"
 import {createContext, useContext, useState} from "react";
 import CartList from "@/componentes/CartList/CartList";
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       <body>
 
         <CartContext.Provider value={{cart: cart, addProductToCart: addProductToCart}}>
-          <BarraNavegacion toggleCart={toggleCart} />
+          <Header toggleCart={toggleCart} />
 
           <main>
             {shorCart && <CartList cart={cart} removeFromCart={removeFromCart}/> }

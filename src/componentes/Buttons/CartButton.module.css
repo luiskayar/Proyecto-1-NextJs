@@ -1,4 +1,4 @@
-.cart-button {
+.cartButton {
   position: relative;
   display: flex;
   padding: 10px;
@@ -7,16 +7,11 @@
   transition: background-color 0.3s;
 }
 
-.cart-button:hover {
+.cartButton:hover {
   background-color: #eceaea;
 }
 
-.svg-cart {
-  height: 50px;
-  width: 50px;
-}
-
-.cart-counter {
+.cartCounter {
   font-size: 2rem;
   position: absolute;
   bottom: 0;

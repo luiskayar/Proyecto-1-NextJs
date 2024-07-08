@@ -1,16 +1,17 @@
 "use client"
-import "./CartList.css"
+
+import styles from "@/componentes/CartList/CartList.module.css"
 
 function CartList({cart, removeFromCart}) {
 
   return (
-    <ul className="cart-list">
+    <ul className={styles.cartList}>
       { cart.map((product, index) =>
 
-        <li className="cart-product" key={index}>
-          <p className="cart-product-name">{product.name}</p>
+        <li className={styles.cartProduct} key={index}>
+          <p className={styles.cartProductName}>{product.name}</p>
 
-          <button className="remove-cart-button" onClick={() => removeFromCart(index)}>
+          <button className={styles.removeCartButton} onClick={() => removeFromCart(index)}>
             -
           </button>
         </li>)

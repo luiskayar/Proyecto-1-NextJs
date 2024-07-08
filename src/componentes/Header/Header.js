@@ -1,11 +1,12 @@
 import Link from "next/link";
 import CartButton from "@/componentes/Buttons/CartButton";
+import styles from "@/componentes/Header/Header.module.css"
 
-function  BarraNavegacion({ toggleCart }) {
+function Header({ toggleCart }) {
   return (
-    <nav>
+    <nav className={styles.navBar}>
 
-      <ul className="links-list">
+      <ul className={styles.navBarLinkList}>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/productos">Productos</Link></li>
         <li><Link href="/contactenos">Contactenos</Link></li>
@@ -16,4 +17,4 @@ function  BarraNavegacion({ toggleCart }) {
   )
 }
 
-export default BarraNavegacion
+export default Header

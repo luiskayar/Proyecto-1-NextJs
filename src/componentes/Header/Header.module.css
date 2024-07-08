@@ -1,0 +1,22 @@
+.navBar {
+  align-items: center;
+  display: flex;
+  background-color: var(--white);
+  padding: 1rem;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.navBarLinkList {
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 2rem;
+}
+
+.navBarLinkList a {
+  font-size: 4rem;
+  text-decoration: none;
+  color: var(--black);
+}

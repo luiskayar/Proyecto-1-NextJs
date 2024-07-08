@@ -1,7 +1,7 @@
 "use client"
 
 import { SvgCart } from "@/componentes/Svgs/SvgCart";
-import "./CartButton.css"
+import styles from "@/componentes/Buttons/CartButton.module.css"
 
 import {useCart} from "@/app/layout";
 
@@ -9,10 +9,10 @@ function CartButton({toggleCart}) {
   const { cart } = useCart();
 
   return (
-    <button className="cart-button" onClick={toggleCart} >
+    <button className={styles.cartButton} onClick={toggleCart} >
       <SvgCart />
 
-      <div className="cart-counter">
+      <div className={styles.cartCounter}>
         { cart.length }
       </div>
     </button>

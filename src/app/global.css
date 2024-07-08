@@ -17,14 +17,6 @@ body {
   flex-direction: column;
 }
 
-nav {
-  align-items: center;
-  display: flex;
-  background-color: var(--white);
-  padding: 1rem;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-}
-
 main {
   position: relative;
   flex: 1;
@@ -39,17 +31,3 @@ button {
   background-color: transparent;
 }
 
-.links-list {
-  margin: auto;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  font-size: 2rem;
-}
-
-.links-list a {
-  font-size: 4rem;
-  text-decoration: none;
-  color: var(--black);
-}

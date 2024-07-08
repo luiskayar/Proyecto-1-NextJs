@@ -1,4 +1,4 @@
-.cart-list {
+.cartList {
   position: absolute;
   top: 0;
   right: 0;
@@ -7,7 +7,7 @@
   list-style: none;
 }
 
-.cart-product {
+.cartProduct {
   border: 1px solid rgba(0,0,0,0.2);
   display: flex;
   gap: 1rem;
@@ -16,15 +16,15 @@
   align-items: center;
 }
 
-.cart-product:hover {
+.cartProduct:hover {
   background-color: #eee;
 }
 
-.cart-product-name {
+.cartProductName {
   flex: 1;
 }
 
-.remove-cart-button {
+.removeCartButton {
   cursor: pointer;
   background-color: black;
   padding: 0.1rem 1rem;
